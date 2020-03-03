@@ -1,14 +1,25 @@
-main .content-left-div{
+#content-container main {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.content-left-div{
   display: inline;
   float: left;
   width: 30%;
 }
 
-main .content-right-div{
+.content-right-div{
   width: 70%;
   float: right;
 }
-
+.content-right-div h1{
+  color: #1a545c;
+}
+.content-right-div .caption{
+  font-size: 20px;
+  text-decoration: underline;
+}
 .content-left-div ul {
     margin: 0px;
     padding: 0px;
@@ -23,26 +34,58 @@ main .content-right-div{
 }
 
 .content-left-div li a {
-    font-size: 20px;
-    color: #383333;
+  color: #524c4c;
+  font-size: 19px;
+}
+.content-left-div li a:hover {
+  color: #000000;
+  font-weight: bold;
 }
 
-.inner-left-div {
+.content-left-div .inner-left-div {
     /* padding: 10px 50px; */
-    width: 85%;
+    width: 75%;
     margin: auto;
-  }
-  p#show-more {
-    text-align: right;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    padding: 7em 0em;
 }
-p#go-back {
+p#show-more{
+  text-align: right;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+p#show-more a{
+  text-decoration: none;
+  color: #1a545c;
+}
+p#show-more a:hover{
+  text-decoration: underline;
+}
+p#go-back{
     text-align: right;
     margin: 0px;
+
+}
+p#go-back a{
+    text-decoration: none;
+    color: #1a545c;
+}
+p#go-back a:hover{
+    text-decoration: underline;
+
 }
 
-
+.content-right-div .news-content {
+    column-count: 2;
+    width: 93%;
+}
+.content-right-div img {
+    /* float: left; */
+    width: 100%;
+}
+p.multicolumn-content {
+    text-align: justify;
+    /* column-count: 2; */
+}
 
 
 
