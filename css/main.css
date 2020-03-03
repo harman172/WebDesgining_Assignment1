@@ -234,10 +234,42 @@ footer li a {
 }
 
   /* mobile */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 760px) {
   nav li{
   display: block;
   }
+  .content {
+  float: none: ;
+  width: 100%;
+  }
+  .trending h2 {
+    padding: 0px;
+    border: 0px;
+    margin-left: 20px;
+}
+  .trending .slide {
+    width: 250px;
+}
+  .slider .slider_img {
+    width: 250px;
+}
+  .trending .slide h2 {
+    padding: 0px;
+    border: 0px;
+}
+  .trending .slide p {
+    margin-top: 6px;
+}
+.sections {
+    display: none;
+}
+aside.aside {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 1290px) {
   .content {
   float: none: ;
   width: 100%;

@@ -88,7 +88,7 @@ p.multicolumn-content {
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 850px) {
   .content-left-div {
     display: none;
 }
@@ -106,7 +106,6 @@ p.multicolumn-content {
 
 .slider-left-content {
     width: 100%;
-    z-index: 10;
 }
 .slider-right-content {
     display: none;
