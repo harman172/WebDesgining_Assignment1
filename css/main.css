@@ -1,7 +1,6 @@
 /* For mobile */
 body{
-  height: 100%;
-  width: 100%;
+  margin: 0px;
 }
 #container{
   width: 100%;
@@ -54,6 +53,9 @@ nav li a {
 }
 .trending h2{
   color: #1a545c;
+  padding: 5px 10px 5px 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #00000024;
 }
 .breaking_news {
   width: 90%;
@@ -191,6 +193,9 @@ footer {
     background: linear-gradient(to right, #0fa5bd 50%, #d0cccc, #0fa5bd);
     clear: left;
 }
+footer li a {
+    color: #ffffff;
+}
 .footer ul {
     margin: 0px;
     padding: 0px;
@@ -198,4 +203,68 @@ footer {
 .footer li {
     list-style-type: none;
     display: inline;
+    padding: 5px;
   }
+  footer p {
+    color: #ffffff;
+}
+
+.sections .row {
+  width: 100%;
+  margin: 5px 0px;
+}
+.sections .column {
+    width: 30%;
+    float: left;
+    margin: 12px;
+    border: 3px solid #d3edf4;
+    box-shadow: 10px 10px 20px #4a4747;
+}
+.sections .heading img {
+    float: right;
+}
+.sections .heading h4 {
+    display: inline;
+}
+.sections .news img {
+    width: 100%;
+}
+.aside .right-content a {
+    color: #3c3636;
+}
+
+  /* mobile */
+@media only screen and (max-width: 450px) {
+  nav li{
+  display: block;
+  }
+  .content {
+  float: none: ;
+  width: 100%;
+  }
+  .trending h2 {
+    padding: 0px;
+    border: 0px;
+    margin-left: 20px;
+}
+  .trending .slide {
+    width: 250px;
+}
+  .slider .slider_img {
+    width: 250px;
+}
+  .trending .slide h2 {
+    padding: 0px;
+    border: 0px;
+}
+  .trending .slide p {
+    margin-top: 6px;
+}
+.sections {
+    display: none;
+}
+aside.aside {
+    display: none;
+}
+
+}
