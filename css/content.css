@@ -1,0 +1,108 @@
+main .content-left-div{
+  display: inline;
+  float: left;
+  width: 30%;
+}
+
+main .content-right-div{
+  width: 70%;
+  float: right;
+}
+
+.content-left-div ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-left-div ul li {
+    list-style-type: none;
+}
+.content-left-div li img {
+    width: 35px;
+    height: 35px;
+}
+
+.content-left-div li a {
+    font-size: 20px;
+    color: #383333;
+}
+
+.inner-left-div {
+    /* padding: 10px 50px; */
+    width: 85%;
+    margin: auto;
+  }
+  p#show-more {
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+p#go-back {
+    text-align: right;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slider content page */
+header a, nav a{
+  text-decoration: none;
+}
+.slider-left-content {
+    width: 68%;
+    float: left;
+    padding: 1%;
+}
+.slider-left-content h1 {
+    color: #1a545c;
+    padding: 0px 10px;
+}
+.slider-left-content img {
+    float: left;
+    margin: 10px;
+}
+
+.slider-left-content p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.slider-right-content {
+    width: 30%;
+    float: right;
+}
+
+.slider-right-content .inner-div {
+    width: 70%;
+    margin: 3em auto;
+}
+
+.slider-right-content h2 {
+    color: #1a545c;
+}
+.slider-right-content li {
+    padding: 5px 0px;
+}
+.slider-right-content li a {
+    color: #524c4c;
+    font-size: 19px;
+}
+.slider-right-content li a:hover{
+  color: #000000;
+  font-weight: bold;
+}
